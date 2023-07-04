@@ -1,10 +1,10 @@
-// swift-tools-version:5.5
+// swift-tools-version:5.6
 import PackageDescription
 
 let package = Package(
     name: "FSPagerView",
     platforms: [
-        .iOS(.v9)
+        .iOS(.v14)
     ],
     products: [
         .library(name: "FSPagerView", targets: ["FSPagerView"]),
